@@ -1,0 +1,47 @@
+/* Browser default spaces remove panna */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root matrum Body full screen cover panna */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light; /* Force light mode to match template */
+  background-color: #f5f7fa;
+}
+
+body {
+  /* Munnadi iruntha flex-center-ai remove pannitom */
+  display: block; 
+  overflow-x: hidden;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Links and Buttons */
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+button {
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+/* Image of CSS Box Model explaining margin, border, padding, and content */
