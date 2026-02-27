@@ -1,0 +1,10 @@
+version: "3"
+services:
+  dcw-customer-complaint:
+    image: dcw-customer-complaint
+    container_name: dcw-customer-complaint
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 6222:4000
